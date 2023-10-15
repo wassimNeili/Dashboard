@@ -1,0 +1,17 @@
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0; 
+    text-align: center; 
+  border-top:2px solid #384256;
+  }
+
+  
+  .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-left: 700px;
+  }
+  
+ 
+  

@@ -1,0 +1,38 @@
+.card-header {
+  background-color: #007bff;
+}
+.h4 {
+color: #fff;
+}
+.card-header h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-body th,
+.card-body td {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+
+.btn-primary {
+  color: #007bff;
+  background-color: #fff;
+  border-color: #007bff;
+  font-size: 17px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+

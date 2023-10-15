@@ -1,0 +1,59 @@
+.bureau {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.nov {
+  margin-top: 10px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0000ff;
+  font-weight: bold;
+}
+
+
+
+/* Add New Button */
+.btn-add-new {
+  margin-left: 900px; /* Adds some space below the button */
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-add-new:hover {
+  background-color: #0056b3; 
+}
+
