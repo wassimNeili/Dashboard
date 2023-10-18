@@ -13,7 +13,14 @@ class AxiosService {
   }
 
   update(url, data) {
-    return this.axiosInstance.put(url, data);
+    const jwtToken = localStorage.getItem('jwtToken');
+
+    const headers = {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${jwtToken}`,
+    };
+
+    return this.axiosInstance.put(url, data, { headers });
   }
 
   delete(url) {
